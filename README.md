@@ -1,16 +1,13 @@
-How to use?
-1. Download the "[UEVR](https://github.com/praydog/UEVR/releases)" mod if you don't have it
-2. Download the "[Custom UEVR Injector.exe](https://github.com/mirudo2/Custom-UEVR-Injector/releases)" injector
-3. Move "Custom UEVR Injector.exe" to the "UEVR" mod folder
-4. Run "Custom UEVR Injector.exe" as administrator
-5. Paste the game process name into the console and press ENTER
-6. Finally start the game
+### Changelog
 
-What does this script do?
+- **Shortcut System Added**: You can now create a shortcut for a specific game, allowing you to launch the injector pre-configured for that game next time.
 
-1. Check if the game process is running.
-2. Get the process directory.
-3. Copy the dlls "UEVRBackend.dll" and "openxr_loader.dll" to the process directory.
-4. Inject the dll "UEVRBackend.dll".
+- **Runtime Selection**: You can now choose between OpenXR or OpenVR as your runtime.
 
-The difference to the standard "UEVR" injector is that this injector makes the injection automatically and as quickly as possible.
+- **Nullify VR Plugins**: Added the option to inject Nullify VR Plugins if preferred.
+
+### Instructions
+
+To use the injector, simply copy the executable `Custom-UEVR-Injector.exe` to the same folder as `UEVR`, as shown in the image below:
+
+![Injector Setup](https://raw.githubusercontent.com/mirudo2/Custom-UEVR-Injector/refs/heads/main/image.jpg)
