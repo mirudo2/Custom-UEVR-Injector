@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0"
+          xmlns="urn:schemas-microsoft-com:asm.v1"
+          xmlns:asmv2="urn:schemas-microsoft-com:asm.v2"
+          xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+  
+  <assemblyIdentity
+      name="Custom UEVR Injector"
+      version="1.0.0.0"
+      processorArchitecture="amd64"
+      type="win32" />
+
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity
+          type="win32"
+          name="Microsoft.Windows.Common-Controls"
+          version="6.0.0.0"
+          processorArchitecture="*"
+          publicKeyToken="6595b64144ccf1df"
+          language="*" />
+    </dependentAssembly>
+  </dependency>
+
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel 
+            level="requireAdministrator" 
+            uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  
+  <compatibility xmlns="urn:schemas-microsoft-com:asm.v3">
+    <application>
+      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/> <!-- Windows Vista -->
+      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/> <!-- Windows 7 -->
+      <supportedOS Id="{4f476546-4b4c-4f60-8fd5-6f0ee6d76d2a}"/> <!-- Windows 8 -->
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/> <!-- Windows 8.1 -->
+      <supportedOS Id="{a4fbd276-14dd-4496-8ce4-9c7ddf24e9fa}"/> <!-- Windows 10+ -->
+    </application>
+  </compatibility>
+</assembly>
