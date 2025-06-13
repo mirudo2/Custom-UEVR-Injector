@@ -6,7 +6,7 @@ A simple UEVR injector with some useful features missing from the official injec
 - **Auto-Close**  
   Automatically closes the injector as soon as the injection is complete.
 
-![Injector Setup](https://raw.githubusercontent.com/mirudo2/Custom-UEVR-Injector/refs/heads/main/Images/2025-05-03%20225837.png)
+<img src="https://raw.githubusercontent.com/mirudo2/Custom-UEVR-Injector/refs/heads/main/Images/2025-05-03%20225837.png" width="500" />
 
 ## Download
 
